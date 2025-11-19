@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import Nav from './sections/Nav'
 import About from './sections/About'
 import Tech from './sections/Tech'
@@ -11,7 +8,6 @@ import { Toaster } from 'react-hot-toast'
 import Experience from './sections/Experience'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

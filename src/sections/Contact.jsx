@@ -70,7 +70,7 @@ function Contact() {
           </h1>
           <div className="text-center tracking-tighter flex flex-col gap-5">
             <p className="text-zinc-400 text-2xl">CasaBlanca, Oulfa, Zoubir</p>
-            <p className="text-zinc-400 text-2xl">+212 612820865</p>
+            <p className="text-zinc-400 text-2xl">+212 7 11 404 11 4</p>
           </div>
         </div>
 

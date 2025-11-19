@@ -12,7 +12,7 @@ function Nav() {
         </div>
         <ul className="flex gap-4">
          <li> <a href="https://www.linkedin.com/in/messoudi-mouhcine-5082762b3/" target="_blank"><FaLinkedin  className='text-slate-100' size={25}/></a> </li>
-         <li> <a href="https://github.com/mohsine-msd"target="_blank" > <FaGithub className='text-slate-100'  size={25}/></a></li>
+         <li> <a href="https://github.com/Mrmohsine"target="_blank" > <FaGithub className='text-slate-100'  size={25}/></a></li>
         </ul>
     </nav>
     );

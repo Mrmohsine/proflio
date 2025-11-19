@@ -1,6 +1,6 @@
 import React from "react";
 import { FaReact, FaPhp, FaLaravel, FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { SiFirebase } from "react-icons/si";
+import { SiFirebase, SiExpo } from "react-icons/si";
 import { FaJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql } from "react-icons/si";
@@ -22,7 +22,7 @@ function Tech() {
 
   return (
     <>
-      <h1 className="text-white my-6 text-center text-4xl">Technologies</h1>
+      <h1 className="text-white text-4xl md:text-5xl lg:text-5xl text-center my-10 font-bold">Technologies</h1>
       <div className="flex flex-wrap justify-center items-center gap-8">
         <motion.div
           {...motionSettings(0.5)}
@@ -62,7 +62,7 @@ function Tech() {
           {...motionSettings(0.9)}
           className="rounded-md border-2 p-3 border-gray-600 sh"
         >
-          <FaLaravel size={40} className="text-red-600" />
+          <SiExpo size={40} className="text-red-600" />
         </motion.div>
 
         <motion.div
