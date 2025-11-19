@@ -37,8 +37,9 @@ function About() {
           divers outils modernes de développement. J’ai également de bonnes
           compétences en outils bureautiques (Word, Excel, etc.).{" "}
           <a
-            className=" cursor-pointer text-blue-500 underline "
+            className=" cursor-pointer text-white font-extrabold underline "
             href={cv}
+            download="Messoudi_Mouhcine_CV.pdf"
             target="_blank"
           >
             Voir mon CV
