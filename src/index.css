@@ -17,3 +17,28 @@ body{
   padding: 0;
   margin: 0;
 }
+
+
+.star {
+  position: fixed;
+  width: 10px;               
+  height: 10px;
+  background-color: red;     
+  border-radius: 50%;        
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: fadeOut 1s forwards;
+  z-index: 10000;
+  box-shadow: 0 0 8px red;  
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}

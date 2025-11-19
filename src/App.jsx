@@ -6,19 +6,21 @@ import Contact from './sections/Contact'
 import Hero from './sections/Hero'
 import { Toaster } from 'react-hot-toast'
 import Experience from './sections/Experience'
+import CursorTrail from './components/CursorTrail'
 
 function App() {
 
   return (
     <>
     <Toaster position='top-right'/>
-  <Nav />
-  <About />
-  <Experience />
-  <Tech />
-  <Projects />
-  <Hero />
-  <Contact />
+     <CursorTrail />
+      <Nav />
+      <About />
+      <Experience />
+      <Tech />
+      <Projects />
+      <Hero />
+      <Contact />
     </>
   )
 }
