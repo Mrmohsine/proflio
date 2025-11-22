@@ -29,7 +29,7 @@ body{
   transform: translate(-50%, -50%);
   animation: fadeOut 1s forwards;
   z-index: 10000;
-  box-shadow: 0 0 8px blue;  
+  box-shadow: 0 0 8px lightblue;  
 }
 
 @keyframes fadeOut {

@@ -58,7 +58,6 @@ function About() {
           <a
             className="cursor-pointer text-white font-extrabold underline"
             href={cv}
-            download="Messoudi_Mouhcine_CV.pdf"
             target="_blank"
           >
             {lang.viewCV}
