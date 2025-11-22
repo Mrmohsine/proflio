@@ -63,7 +63,7 @@ function Contact() {
   };
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-around border-t-2 border-neutral-200 mt-8  w-[75%] mx-auto">
+      <div className="flex flex-col md:flex-row justify-around border-t-2 border-neutral-200 my-8  w-[75%] mx-auto">
         <div className=" mt-10 md:mt-36 flex flex-col gap-5  "> 
           <h1 className="text-center font-bold text-4xl text-zinc-50">
             Get in touch
